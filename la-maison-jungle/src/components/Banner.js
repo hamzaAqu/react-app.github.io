@@ -1,5 +1,4 @@
 import '../styles/Banner.css'
-import Recommandation from './Recommandation'
 import logo from'../assets/logo.png'
 
 function Banner(){
@@ -7,7 +6,6 @@ function Banner(){
 	return (<div className="lmj-banner">
         <img src={logo} alt='la maison jungle' className="lmj-logo"/>
         <h1 className="lmj-title">{title}</h1>
-        <div> <Recommandation/> </div>
         </div>)
 }
 export default Banner
